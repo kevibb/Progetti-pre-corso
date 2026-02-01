@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+}
+
+h3 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+form div {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#nome input, #cognome input, #email input, #password input, #data input , #telefono input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#nome input:hover, #cognome input:hover, #email input:hover, #password input:hover, #data input:hover, #telefono input:hover {
+    border-color: darkcyan;
+}
+
+.generi {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 10px 40px;
+}
+
+.genere {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; 
+    gap: 10px;
+}
+
+button {
+    background-color:darkcyan;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: cyan;
+    color: black;
+}
